@@ -1,0 +1,94 @@
+.wrapper {
+    background-color: #030303;
+    padding: 30px;
+}
+
+.footer {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif;
+    max-height: 450px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBox {
+    display: flex;
+}
+
+.logoBox {
+    display: flex;
+}
+
+.image {
+    width: 50px;
+    padding-bottom: 9px;
+    height: 72px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    letter-spacing: 5px;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+.link {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: 'Roboto Serif', serif;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.link:hover {
+    color: #9D8665;
+}
+
+.linkBox {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin-top: 25px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.allLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 350px;
+    height: 150px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover {
+    border: 1px solid #9D8665;
+}

@@ -1,0 +1,151 @@
+.wrapper {
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.line {
+    width: 1440px;
+    height: 3px;
+    background-color: #710707;
+    position: relative;
+    top: -50px;
+}
+
+.buyMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyMenuWrapper {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.text {
+    color: #000000;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.ticketsList {
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+    width: 290px;
+}
+
+.ticketsGap {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ticketsGap:hover .ticketText {
+    cursor: pointer;
+    color: #9D8665;
+}
+
+.ticketsGap:hover .inputWrapper {
+    cursor: pointer;
+    color: #9D8665;
+}
+
+.ticketText {
+    color: #000000;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+.inputWrapper {
+    width: 25px;
+    height: 25px;
+}
+
+.amountText {
+    color: #000000;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.amountNumber {
+    width: 150px;
+    height: 50px;
+    border: solid 1px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amountCounter {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    color: #000000;
+    background-color: white;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterChange:hover {
+    cursor: pointer;
+    background-color: #9D8665;
+}
+
+.amountWrapper {
+    position: relative;
+    top: 25px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    background: #000000;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+.btnText {
+    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+}

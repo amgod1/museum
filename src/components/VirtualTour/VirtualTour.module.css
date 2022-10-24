@@ -1,0 +1,88 @@
+.wrapper {
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    height: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 15;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 120px;
+    column-gap: 60px;
+}
+
+.title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.line {
+    width: 1440px;
+    height: 3px;
+    background-color: #710707;
+    position: relative;
+    top: -50px;
+}
+
+.item {
+    width: 440px;
+    height: 425px;
+}
+
+.item:hover .shortLine {
+    width: 440px;
+}
+
+.text {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    bottom: 8px;
+}
+
+.img:hover {
+    opacity: .75;
+}
+
+.shortLine {
+    width: 300px;
+    height: 2px;
+    background-color: #710707;
+    position: relative;
+    bottom: 15px;
+    transition: width 1s ease-out;
+}
+
+.paragraph {
+    color: #000000;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    position: relative;
+    bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link .paragraph:hover {
+    color: #9D8665;
+}

@@ -1,0 +1,51 @@
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 1400px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #9D8665;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text {
+    max-width: 760px;
+    color: #000000;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.mainVideo {
+    width: 1440px;
+    height: 650px;
+}
+
+.videoWrapper video[poster] {
+    height:100%;
+    width:100%;
+}
+
+.videosLittle {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}

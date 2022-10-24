@@ -1,0 +1,51 @@
+.wrapper {
+    background-color: #030303;
+    height: 840px;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #FFFFFF;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 660px;
+    height: 3px;
+    background-color: #710707;
+    position: relative;
+    top: -50px;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.yellowText {
+    color: #9d8665;
+}
+
+.info {
+    max-width: 660px;
+}
+
+.image {
+    position: relative;
+    top: 80px;
+}
